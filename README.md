@@ -82,7 +82,7 @@ Get your **Attendance Management System** up and running in just a few steps:
 
 
 4. **Configure Environment Variables**: Set up your environment configuration by copying the example environment file:
-    ```bash
+    
    cp .env.example .env
 
 
