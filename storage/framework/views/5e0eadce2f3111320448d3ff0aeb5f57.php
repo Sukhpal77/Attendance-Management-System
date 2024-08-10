@@ -1,0 +1,2 @@
+<img src="<?php echo e(asset('img/logo.png')); ?>" alt="Logo" class="w-20 h-20">
+<?php /**PATH D:\laravel project\attendance-Management\resources\views/components/application-logo.blade.php ENDPATH**/ ?>
