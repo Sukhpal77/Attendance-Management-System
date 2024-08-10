@@ -71,18 +71,18 @@ Get your **Attendance Management System** up and running in just a few steps:
 
 
 2. **Navigate into the project directory**:
-
+    ```bash
     cd attendance-management-system
 
 
 3. ****Install Dependencies**: Install the required PHP and JavaScript packages using Composer and npm:
-
+    ```bash
    composer install
    npm install
 
 
 4. **Configure Environment Variables**: Set up your environment configuration by copying the example environment file:
-
+    ```bash
    cp .env.example .env
 
 
@@ -94,22 +94,22 @@ Get your **Attendance Management System** up and running in just a few steps:
 
 
 6. **Generate Application Key**: Create a unique application key by running:
-
+    ```bash
    php artisan key:generate
 
 
 7. **Run Database Migrations**: Prepare your database by running migrations:
-
+    ```bash
    php artisan migrate
 
 
 8. **Seed the Database (Optional)**: Populate your database with initial data (if applicable):
-
+    ```bash
     php artisan db:seed
 
 
 9. **Start the Development Server**: Launch the development server and view your application in your browser:
-
+    ```bash
     php artisan serve
 
 
